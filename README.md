@@ -1,6 +1,15 @@
 pycoin -- Python Cryptocoin Utilities
 =====================================
 
+__Disclaimer:__
+This is forked from Richard Kiss' [repository](https://github.com/richardkiss/pycoin).
+My changes might break some things.
+Kindly do not use my fork but use Richard Kiss' original implementation.
+Thank you
+
+=====================================
+
+
 This is an implementation of a bunch of utility routines that may be useful when dealing with bitcoin and some
 alt-coins. It has been tested with Python 2.7, 3.3, 3.4 and 3.5.
 
@@ -28,12 +37,12 @@ understand this warning before giving out public wallet keys!
 ---------------
 
 ```
-Key(hierarchical_wallet=None, 
+Key(hierarchical_wallet=None,
     secret_exponent=None,
-    public_pair=None, 
-    hash160=None, 
-    prefer_uncompressed=None, 
-    is_compressed=True, 
+    public_pair=None,
+    hash160=None,
+    prefer_uncompressed=None,
+    is_compressed=True,
     netcode)
 ```
 
