@@ -9,6 +9,9 @@ Thank you
 
 =====================================
 
+#### Notes:
+- [spending Bitcoin cash from pre fork UTXOs](http://blog.richardkiss.com/?p=585)
+
 
 This is an implementation of a bunch of utility routines that may be useful when dealing with bitcoin and some
 alt-coins. It has been tested with Python 2.7, 3.3, 3.4 and 3.5.
